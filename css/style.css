@@ -1,0 +1,93 @@
+/* GERAL*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    color: #4f4f4f;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* HEADER */
+
+.header__titulo {
+    text-transform: uppercase;
+    color: purple;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+.autora{
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    text-align: center;
+    height: 413px;
+    vertical-align: top;
+    margin: 0 0 20px 0;
+}
+
+.autora__nome
+.autora__ocupacao{
+    margin:0;
+}
+
+.autora__nome {
+    margin-top: 10px;
+}
+
+/* artigo*/
+
+.artigo {
+    color: #4a4a4a;
+    margin-left: 50px;
+}
+.artigo__titulo {
+    font-size: 36px;
+    margin-top: 0;
+    color: purple;
+}
+
+.artigo p {
+    font-size: 18px;
+}
+
+
+/*Layout*/
+
+.col-1-de-3 {
+    display: inline-block;
+    width: 30%;
+}
+
+.col-2-de-3 {
+    display: inline-block;
+    width: 65%;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/*footer*/
+
+footer {
+    background-color:#9013FE;
+    text-align: center;
+    color: white;
+}
+
+.rodape p {
+    margin: 0;
+    padding: 10px 0;
+}
